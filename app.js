@@ -1,5 +1,5 @@
 const countdown = () => {
-    const countDate = new Date("May 17, 2021 00:00:00").getTime();
+    const countDate = new Date("May 29, 2021 00:00:00").getTime();
     const now = new Date().getTime();
     console.log(now);
     const gap = countDate - now;
@@ -10,7 +10,7 @@ const countdown = () => {
     const hour = minute * 60;
     const day = hour * 24;
 
-    //calculate the shit 
+    //calculate the time 
     const textDay = Math.floor(gap / day);
     const textHour = Math.floor((gap % day) / hour);
     const textMinute = Math.floor((gap % hour) / minute);
