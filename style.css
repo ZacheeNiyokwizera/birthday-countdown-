@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "KoHo", sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.countdown {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.waiting {
+    height: 70vh;
+}
