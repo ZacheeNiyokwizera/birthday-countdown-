@@ -39,3 +39,20 @@ h2 {
 .waiting {
     height: 70vh;
 }
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .day,
+    .hour,
+    .minute,
+    .second {
+        font-size: 1.5rem;
+    }
+    .waiting {
+        height: 60vh;
+        height: 50vh;
+    }
+}
